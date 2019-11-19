@@ -1,0 +1,25 @@
+{
+  "name": "reveal-run-in-terminal",
+  "version": "1.0.0",
+  "description": "Show and execute code in your presentation",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "reveal.js": "^3.3.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "build": "browserify --debug src/reveal-run-in-terminal.js > static/plugin/reveal-run-in-terminal.js"
+  },
+  "author": {
+    "name": "Pierre Kohler"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pete842/STI_Pres.git"
+  }
+}

@@ -5,7 +5,7 @@ module.exports = class {
   }
 
   constructor() {
-    this.worker = new Worker('/plugin/reveal-run-in-terminal-hljs-worker.js');
+    this.worker = new Worker('/static/reveal-run-in-terminal-hljs-worker.js');
     this.pending = {};
     this.worker.onmessage = (event) => {
       this.pending[event.data.callbackId].resolve(event.data.code.value);

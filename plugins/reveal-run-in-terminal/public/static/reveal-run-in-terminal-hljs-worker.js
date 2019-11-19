@@ -1,5 +1,5 @@
 self.window = {};
-importScripts('/plugin/highlight/highlight.js');
+importScripts('/src/highlight.js');
 
 onmessage = (event) => {
   postMessage({

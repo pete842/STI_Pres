@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/black.css">
-    <link rel="stylesheet" href="plugin/reveal-run-in-terminal.css">
+    <link rel="stylesheet" href="static/reveal-run-in-terminal.css">
 
     <!-- Theme used for syntax highlighting of code -->
     <link rel="stylesheet" href="lib/css/zenburn.css">
@@ -58,7 +58,7 @@
       </div>
     </div>
 
-    <script src="lib/js/head.min.js"></script>
+    <script src="src/head.min.js"></script>
     <script src="js/reveal.js"></script>
 
     <script>
@@ -68,7 +68,7 @@
 
         // More info https://github.com/hakimel/reveal.js#dependencies
         dependencies: [
-          { src: 'plugin/reveal-run-in-terminal.js', async: true,
+          { src: 'static/reveal-run-in-terminal.js', async: true,
           callback: function() {
             RunInTerminal.init({defaultBin: 'node'});
           } },

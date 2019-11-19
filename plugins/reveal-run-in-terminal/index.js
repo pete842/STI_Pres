@@ -13,10 +13,10 @@ module.exports = (options) => {
 
   let app = express();
   let commandRegex = options.commandRegex || /\S*/;
-  let publicPath = path.resolve(options.publicPath || '.');
+  let publicPath = path.resolve(options.basePath || '.');
+  let basePath = path.resolve(options.publicPath || '.');
 
   app.use(express.static(publicPath));
-  app.use(express.static(path.join(__dirname, 'static')));
 
   app.get('/reveal-run-in-terminal', (req, res) => {
     let errors = [];
@@ -30,8 +30,8 @@ module.exports = (options) => {
       errors.push(`command sent to reveal-run-in-terminal didn't match required format (was '${bin}')`);
     }
 
-    let src = path.join(publicPath, req.query.src);
-    if (!src.startsWith(publicPath)) {
+    let src = path.join(basePath, req.query.src);
+    if (!src.startsWith(basePath)) {
       errors.push(`command sent to reveal-run-in-terminal specified a file outside of the allowed public path (was '${req.query.src}'')`);
     }
 

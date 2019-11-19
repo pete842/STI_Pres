@@ -1,0 +1,29 @@
+.reveal section img {
+    background:none;
+    border:none;
+    box-shadow:none;
+}
+
+.reveal h1 {
+    font-size: 2em;
+}
+
+.reveal h2 {
+    font-size: 1.7em;
+}
+
+.reveal table {
+    font-size: 0.8em;
+}
+
+.reveal pre {
+    margin: 0;
+    box-shadow: inherit;
+    padding: 5px;
+}
+
+.reveal p code {
+    background-color: transparent;
+    border: none;
+}
+

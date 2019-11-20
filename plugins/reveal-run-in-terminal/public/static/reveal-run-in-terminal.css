@@ -5,7 +5,7 @@ section[data-run-in-terminal] {
 
 section[data-run-in-terminal] .container {
   height: 100%;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 section[data-run-in-terminal] .title {

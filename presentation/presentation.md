@@ -5,7 +5,7 @@ subtitle: Attacking Application Logic
 theme: blood
 parallaxBackgroundImage: "assets/img/background_img.jpg"
 parallaxBackgroundSize: "2560px 1570px"
-revealjs-url: "https://revealjs.com"
+revealjs-url: "./"
 header-includes : |
     <link rel="stylesheet" href="assets/css/custom.css">
 ---

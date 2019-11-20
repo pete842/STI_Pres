@@ -11,10 +11,9 @@ app.use(revealRunInTerminal({
   log: true
 }));
 
-console.log( __dirname + "/public");
-
 app.use(express.static(__dirname + '/public'));
 
 app.use(express.static('node_modules/reveal.js'));
+app.use(express.static('node_modules/reveal-code-focus'));
 
 app.listen(5000);

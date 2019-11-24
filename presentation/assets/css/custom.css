@@ -1,4 +1,15 @@
-p {
+ul {
+	position: relative;
+	list-style: none !important;
+	margin-left: 0;
+	padding-left: 0.8em;
+}
+ul li:before {
+	content: "-";
+	position: absolute;
+	left: 0;
+}
+li, p {
     font-family: "Quicksand", sans-serif !important;
 }
 

@@ -53,12 +53,12 @@ Donc, finalement, quel est le probleme ?
 Quelqu'un sait ?
 :::
 
-## Caracteres échapés
+## Caractères échappés
 
 :::fraglist
 - `;`, `|`, `&`, `<`, `>`, `'` et espace
-- Sont échapés par un backslash (`\`)...
-- backslash pas échapé !
+- Sont échappés par un backslash (`\`)...
+- backslash pas échappé !
 :::
 
 :::notes

@@ -21,6 +21,10 @@ li, p {
     color: yellow;
 }
 
+.cookie-attack span {
+    color: darkred;
+}
+
 #title-slide .author {
     font-size: 65%;
 }

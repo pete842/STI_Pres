@@ -28,7 +28,7 @@ Cela nous donne deux cookies chiffrés de la même manière ainsi que ces valeur
 
 ![](assets/img/hmm.gif)
 
-[John Doe|1|je suis de l'entropie]{.fragment .fade-in}
+[`John Doe|`<span>1</span>`|je suis de l'entropie`]{.fragment .fade-in .cookie-attack}
 
 ::: notes
 Nous avons donc deux cookies chiffrés de la même manière et donc déchiffrés aussi de la même manière. Nous pouvons donc simplement intervertir les valeurs.

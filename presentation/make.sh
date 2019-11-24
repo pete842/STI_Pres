@@ -20,7 +20,7 @@ cat $slides/* >> $mdresult
 
 pandoc --no-highlight -t revealjs --template="$prespath/reveal.template" -s -o "$public/index.html" "$mdresult" --slide-level=2 --quiet
 
-#pandoc -t revealjs -s -o "$tmppath/notes.html" "$mdtmp" --highlight-style=breezedark --slide-level=2 --quiet -V showNotes=true
+pandoc --no-highlight -t revealjs --template="$prespath/reveal.template" -s -o "$public/notes.html" "$mdresult" --slide-level=2 --quiet -V showNotes=true
 
 echo "public path : ${public}"
 cp -r "$assets" "$public"

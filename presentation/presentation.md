@@ -9,4 +9,6 @@ revealjs-url: "./"
 transition: slide
 header-includes : |
     <link rel="stylesheet" href="assets/css/custom.css">
+include-after : |
+    <script type="text/javascript" src="assets/js/fraglist.js"></script>
 ---

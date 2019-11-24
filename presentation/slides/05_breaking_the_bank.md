@@ -52,17 +52,17 @@ Ce kit lui permettra de finaliser son compte en transmettant un secret à traver
 :::{.fraglist .nobullet}
 1. Authentification
 2. ```js
-class CCustomer {
-    String firstName;
-    String lastName;
-    CDoB dob;
-    CAddress homeAddress;
-    long custNumber;
-    ...
-}
-```
-3. &#8627; Session de l'utilisateur
-4. Consultation 
+    class CCustomer {
+        String firstName;
+        String lastName;
+        CDoB dob;
+        CAddress homeAddress;
+        long custNumber;
+        ...
+    }
+    ```
+3. Stockage dans la session
+4. &rarr; **Consultation**
 :::
 
 :::notes

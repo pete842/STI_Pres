@@ -17,6 +17,10 @@ li, p {
     content: "";
 }
 
+.same-cookie span {
+    color: yellow;
+}
+
 #title-slide .author {
     font-size: 65%;
 }

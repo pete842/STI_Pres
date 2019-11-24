@@ -9,10 +9,10 @@ Nous prendrons le cas d'un casino en ligne pour la logique des valeurs.
 ## 2 cookies
 
 ::: fraglist
-- Username|user_id|entropie
-- full name|number|entropie
+- `Username|user_id|entropie`
+- `full name|number|entropie`
 :::
-[string<span>|</span>int<span>|</span>entropie]{.fragment .fade-in .same}
+[`string`<span>|</span>`int`<span>|</span>`entropie`]{.fragment .fade-in .same-cookie}
 
 ::: notes
 Imaginons deux cookies, le premier serait composé des informations d'authentification de l'utilisateur permettant au serveur de savoir à qui il s'adresse.
@@ -47,7 +47,7 @@ Et nous voilà donc administrateurs du site.
 :::
 
 ::: notes
-Nous voyons que la réutilisation est une très mauvaise pratique en crypto.
+Nous voyons que la réutilisation de clé est une très mauvaise pratique en crypto.
 La réutilisation de format n'est pas une simple duplication de code, ce point est potentiellement difficile à détecter.
 Mais l'utilisation de format tel que le JSON aurait clairement bloqué ce problème, car nous aurions eu des noms de champs différents.
 

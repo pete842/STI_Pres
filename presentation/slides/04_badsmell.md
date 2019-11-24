@@ -25,7 +25,7 @@ Nous avons après un petit exemple de problème que cela peu créer.
 
 ![](assets/img/switch-statement.png)
 
-[Large class, Long methode, Long parameter list, etc.]{.fragment .current-only data-code-focus="2"}
+[Large class, Long methode, Long parameter list, etc.]{.fragment}
 
 :::notes
 Ce bad smell définit comme un switch ou une série de if très complexe.

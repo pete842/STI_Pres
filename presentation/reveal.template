@@ -41,6 +41,12 @@ $endif$
 $for(css)$
   <link rel="stylesheet" href="$css$"/>
 $endfor$
+<!-- For syntax highlighting -->
+$if(highlight-style)$
+  <link rel="stylesheet" href="lib/css/$highlight-style$.css">
+$else$
+  <link rel="stylesheet" href="lib/css/zenburn.css">
+$endif$
   <!-- Printing and PDF exports -->
   <script>
     var link = document.createElement( 'link' );

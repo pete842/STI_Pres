@@ -12,6 +12,7 @@ cd "$basepath"
 
 echo "[pandoc] Cleaning /public"
 rm -rf "$public/*"
+mkdir -p "$public"
 
 echo "[pandoc] Creating the reveal.js presentation..."
 cp $mdfile $mdresult

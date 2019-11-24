@@ -6,7 +6,10 @@ Avez-vous déjà vu… Cette image ?
 :::
 
 ##
-![](assets/img/ariane5.jpg)
+![](assets/img/ariane5.jpg){width=40%}
+
+##
+![](assets/img/arian5.gif)
 
 :::notes
 Oui, effectivement cela doit être la milliardième fois que vous en entendez parler…

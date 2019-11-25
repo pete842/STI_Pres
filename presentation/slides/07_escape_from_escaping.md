@@ -1,7 +1,7 @@
 # échaper l'échappement
 
 ::: fragment
-![*Poor input sanitizing*](assets/img/heartbleed.png)
+![*Poor input sanitizing*](assets/img/heartbleed.png){width=30%}
 :::
 
 ::: notes

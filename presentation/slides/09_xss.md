@@ -1,4 +1,4 @@
-# Démo 1
+# Démo
 Validation de saisie en multi-étapes
 
 ::: notes

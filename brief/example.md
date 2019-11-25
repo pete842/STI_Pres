@@ -15,3 +15,7 @@ Rappelez-vous de l'exemple de l'application banquaire stockant **la même struct
 Un attaquant pouvait alors écraser cette structure au sein d'une connexion légitime par les données personnelles de sa victime afin d'usurper son identiter aux yeux de l'application.
 
 ## Scope restreint
+
+Utiliser un scope trop restreint lors des validations de la saisie utilisatrice peut permettre à un attaquant créatif d'ignorer cette validation.
+Cela Peut se manifester par des vérifications insuffisantes, mal implémentées ou simplement vulnérables.
+Ce qui est particulièrement dangereux, car ces fonctions, en général, doivent traiter du texte complètement contrôlé par l'utilisateur.

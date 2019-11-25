@@ -11,3 +11,5 @@ Les plus intéressantes dans ce contexte sont :
 
 On peut ajouter dans la catégorie *Duplicate code*, la **réutilisation de logique** qui n'est pas une `mauvaises odeurs` en tant que telle.
 Mais le principe est proche et généralement problématique.
+
+

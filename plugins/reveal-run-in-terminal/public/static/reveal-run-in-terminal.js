@@ -316,8 +316,11 @@ module.exports = class {
 
   load() {
     this.hide();
+    console.log(this.start);
     return fetch(this.src)
       .then(response => response.text())
+      .then(response => response.split('\n').slice(this.start, this.end ).join('\n'))
+      .then(response => response[response.length -1] === '\n' ? response : response + '\n')
       .then(code => Highligher.highlight(code))
       .then(html => html.replace(/\n/g, '<span class="line"></span>\n'))
       .then(html => this.code.innerHTML = html)
@@ -390,6 +393,9 @@ module.exports = class {
   }
 
   get src() { return this.property('runInTerminal'); }
+
+  get start() { return this.property('runInTerminalStart') - 1; }
+  get end() { return this.property('runInTerminalEnd'); }
 
   get args() { return this.property('runInTerminalArgs'); }
 };

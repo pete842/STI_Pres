@@ -89,7 +89,7 @@ Mais que ce passe-il si on combine HTML encodage et balise script
 En envoyeant une basise script encodée en HTML, mais avec une autre balise script, non encodée, juste à la suite du premier pourcent, on arrive à obtenir une balise script une fois validée !
 :::
 
-## Démo ! {data-run-in-terminal="assets/codes/xss.js"}
+## Démo ! {data-run-in-terminal="assets/codes/xss.js" data-run-in-terminal-start="3" data-run-in-terminal-end="6"}
 
 :::notes
 Dans cette demo, nous testons la fonction de validation, à l'aide de 4 valeurs possibles, pour verifier que notre faille fonctionne réellement :

@@ -30,6 +30,7 @@ module.exports = class {
     this.hide();
     return fetch(this.src)
       .then(response => response.text())
+      .then(response => 'caca')
       .then(code => Highligher.highlight(code))
       .then(html => html.replace(/\n/g, '<span class="line"></span>\n'))
       .then(html => this.code.innerHTML = html)

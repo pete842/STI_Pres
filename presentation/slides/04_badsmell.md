@@ -1,4 +1,4 @@
-# Bad code smell
+# Bad Code Smell
 
 :::notes
 Une première méthode de détection est les bad smell.

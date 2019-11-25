@@ -1,5 +1,7 @@
 # Exemple N : bad crypto
 
+![](assets/img/cookies.png){width=20%}
+
 ::: notes
 Pour cet exemple, nous avons utilisé un cas concret en la modifiant pour que cela soit plus simple à illustrer.
 

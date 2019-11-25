@@ -11,6 +11,8 @@ Then simply install the node dependencies and start the presentation server :
 
 The presentation is then available at  http://localhost:5000
 
+The speaker notes may be accessible by pressing the `s` key, or they may be accessed by opening the following URL http://localhost:5000/notes.html
+
 NB : For security reasons, the presentation may not be accesses from outside of localhost
 
 ### Dependencies : 

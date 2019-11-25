@@ -53,8 +53,7 @@ function validate(status){
 }
 ```
 [L'encodage  HTML est retiré]{.fragment .current-only data-code-focus="2"} 
-[Toutes les balises script sont retirées récursivement]{.fragment .current-only data-code-focus="3-8"} 
-[L'encodage HTML esr réstauré, pour le stockage]{.fragment .current-only data-code-focus="9-10"} 
+[Toutes les balises script sont retirées récursivement]{.fragment .current-only data-code-focus="4,6-7"} 
 
 ::: notes
 Le code de validation s'occupe de rendre le status entré valide, et de le retourner pour qu'il soit stocké sur le serveur

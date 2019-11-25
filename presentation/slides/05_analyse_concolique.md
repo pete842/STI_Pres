@@ -7,13 +7,13 @@
 :::
 
 :::notes
-Une autre méthode de détection de fautes de logique est l'analyse concoilique.
+Une autre méthode de détection de fautes de logique est l'analyse concolique.
 
-Cette methode consiste à parcourir le code de telle façon à contaitre quelles valeurs doivent avoir les variables pour que tous les chemins du code soient executés au moins une fois.
+Cette méthode consiste à parcourir le code de telle façon à connaître quelles valeurs doivent avoir les variables pour que tous les chemins du code soient exécutes au moins une fois.
 
-Cette methode permet de découvrir les eventuels effets de bords et cas limites lors de l'execution de code.
+Cette méthode permet de découvrir les éventuels effets de bords et cas limites lors de l'exécution de code.
 
-De par le fait que l'analyse concolique à conaissance du code sous-jacant, elle est plus efficace que le fuzzing à trouver les effets de bord.
+De par le fait que l'analyse concolique à connaissance du code sous-jacent, elle est plus efficace que le fuzzing à trouver les effets de bord.
 
 :::
 
@@ -28,11 +28,11 @@ De par le fait que l'analyse concolique à conaissance du code sous-jacant, elle
 
 :::notes
 
-Cette méthode permet de transformer le code en un ensemble d'equations mathematique, qui, une fois résolues permettent d'obtenir des garanties sur le code.
+Cette méthode permet de transformer le code en un ensemble d'équations mathématique, qui, une fois résolues permettent d'obtenir des garanties sur le code.
 
-Comme cette methode consiste à résoudre des equations mathematiques tres complexes, le temps d'execution deviens tres grand tres rapidement, donc c'est uniquement utilisable en pratique pour du code tres critique.
+Comme cette méthode consiste à résoudre des équations mathématiques très complexes, le temps d'exécution deviens très grand très rapidement, donc c'est uniquement utilisable en pratique pour du code très critique.
 
-Une telle methode, avec toutes ses restrictions, est tout de même tres utile pour des applications extrèmement critiques, ou une erreur logique n'est pas admise. Il s'agit donc d'un outil tres pratique pour les organisations telles que la NASA.
+Une telle méthode, avec toutes ses restrictions, est tout de même très utile pour des applications extrêmement critiques, ou une erreur logique n'est pas admise. Il s'agit donc d'un outil très pratique pour les organisations telles que la NASA.
 
 :::
 
@@ -46,13 +46,13 @@ Une telle methode, avec toutes ses restrictions, est tout de même tres utile po
 
 :::notes
 
-Bien que puissant à l'utilisation, la mise en place n'est pas aisée, et requiere une intégration plutot invasive au niveau du code.
+Bien que puissant à l'utilisation, la mise en place n'est pas aisée, et requière une intégration plutôt invasive au niveau du code.
 
-Contrairement à l'execution symboliqe, qui fournit des garanties mathematiques, l'analyse concolique ne permet pas d'avoir de garantie sur la robustesse du code analysé.
+Contrairement à l'exécution symbolique, qui fournit des garanties mathématiques, l'analyse concolique ne permet pas d'avoir de garantie sur la robustesse du code analysé.
 
-De par la nature de l'analyse concolique, il n'est pas possible de trouver une grande majoritée des erreurs de logique.
+De par la nature de l'analyse concolique, il n'est pas possible de trouver une grande majorité des erreurs de logique.
 
-Malgré tous ces désavantages, ce systeme est quand meme tres aprecié quand il est correctement mis en place, bien que rarement en pratique
+Malgré tous ces désavantages, ce système est quand même très apprécié quand il est correctement mis en place, bien que c'est rarement le cas en pratique.
 
 :::
 

@@ -36,7 +36,7 @@ Ici, on divisera d'en un premier temps le processus principale en sous-processus
 ![](assets/img/part.png){.fragment .fade-in width=50%}
 
 :::notes
-En pratique, dans le contexte du développement applicatif, il existe d'inombrable technique préétablies de découpage d'application en fonction du besoin de du domaine.
+En pratique, dans le contexte du développement applicatif, il existe d'innombrable techniques préétablies de découpage d'application en fonction du besoin de du domaine.
 
 De manière générale, ce découpage sera influencé par une multitude de facteurs plus ou moins concrets, 
 tel que les besoins directs de l'application, 

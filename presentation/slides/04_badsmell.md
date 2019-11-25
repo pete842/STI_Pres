@@ -10,7 +10,7 @@ https://sourcemaking.com/refactoring
 
 ## Duplicate Code
 
-![](assets/img/stackoverflow.jpg)
+![](assets/img/cccv.png)
 
 :::notes
 La réutilisation/duplication de code implique une potentielle réutilisation de la logique, ce qui peut-être dévastatrice !

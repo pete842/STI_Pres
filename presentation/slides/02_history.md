@@ -1,5 +1,5 @@
 #
-![](assets/img/avdv.jpg)
+![](assets/img/avdv.gif)
 
 :::notes
 Avez-vous déjà vu… Cette image ?

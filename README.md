@@ -13,7 +13,7 @@ The presentation is then available at  http://localhost:5000
 
 NB : For security reasons, the presentation may not be accesses from outside of localhost
 
-###Dependencies : 
+### Dependencies : 
 - node 12.10
 - npm 6.10
 - pandoc 2.7.3

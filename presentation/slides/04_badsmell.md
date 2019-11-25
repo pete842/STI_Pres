@@ -23,7 +23,7 @@ Nous avons après un petit exemple de problème que cela peu créer.
 
 ## Switch Statements
 
-![](assets/img/switch-statement.png)
+![](assets/img/switch-statement.png){width=70%}
 
 [Large class, Long methode, Long parameter list, etc.]{.fragment}
 
@@ -38,7 +38,7 @@ Sans perdre le contexte global.
 
 ## Refused Bequest
 
-![](assets/img/refused-bequest.png)
+![](assets/img/refused-bequest.png){width=50%}
 
 :::notes
 Des personnes ont parfois l'envie de faire de l'héritage uniquement pour éviter de la duplication de code.

@@ -1,5 +1,5 @@
 ---
-author: Filpe Fortuanto, Pierre Kohler et Jonathan Zaehringer
+author: Filipe Fortunato, Pierre Kohler et Jonathan Zaehringer
 title: "<u>Attaquer</u> la <br/>**logique d'application**"
 subtitle: "`pres_STI`"
 theme: sky

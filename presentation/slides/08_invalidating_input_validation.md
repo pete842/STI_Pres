@@ -1,5 +1,7 @@
 # Validation d'entrée
 
+![](assets/img/bobby.png){width=70%}
+
 ::: notes
 Cet exemple présente un défaut d'implémentation découvert au niveau d'un site web d'e-commerce
 

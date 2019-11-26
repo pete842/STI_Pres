@@ -1,8 +1,6 @@
-# Casser la banque
+# Example 1 : Casser la banque
 
-::: fragment
 ![*Code Reuse*](assets/img/reuse.png)
-:::
 
 ::: notes
 Cet exemple présente un défaut d'implémentation découvert au niveau d'une application web permettant la gestion de comptes banquaires personnels.

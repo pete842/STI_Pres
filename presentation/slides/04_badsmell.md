@@ -1,5 +1,7 @@
 # Bad Code Smell
 
+![](assets/img/smell.jpg)
+
 :::notes
 Une première méthode de détection est les bad smell.
 Ces "mauvaises odeurs" sont des indicateurs d'erreur de programmation ou d'optimisation qui peuvent conduire à des bugs de logique.

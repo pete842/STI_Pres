@@ -1,5 +1,14 @@
 # Analyse Concolique
 
+![](assets/img/concolique.jpg)
+
+
+:::notes
+Une autre méthode de détection de fautes de logique est l'analyse concolique.
+:::
+
+## Caractèristiques
+
 :::fraglist
 - *Pathfinding* du code
 - Découverte d'effets de bord et cas limite
@@ -7,7 +16,6 @@
 :::
 
 :::notes
-Une autre méthode de détection de fautes de logique est l'analyse concolique.
 
 Cette méthode consiste à parcourir le code de telle façon à connaître quelles valeurs doivent avoir les variables pour que tous les chemins du code soient exécutes au moins une fois.
 
@@ -20,7 +28,7 @@ De par le fait que l'analyse concolique à connaissance du code sous-jacent, ell
 ## Execution Symbolique
 
 :::fraglist
-- Garanties mathématiques sur le code
+- Garanties mathématiques
 - Très lourd à exécuter
 - Uniquement pour code critique
 - Utile pour NASA
@@ -40,7 +48,7 @@ Une telle méthode, avec toutes ses restrictions, est tout de même très utile 
 
 :::fraglist
 - Lourd à installer
-- Aucune garantie sur le code
+- Aucune garantie
 - Non-exhaustif
 :::
 

@@ -1,5 +1,9 @@
 # Démo
+
+![](assets/img/troy.jpg){width=50%}
+
 Validation de saisie en multi-étapes
+
 
 ::: notes
 Cette premiere démo consiste à abuser la logique d'un simple validateur de saisie, pour reussi à effectuer une attaque en XSS

@@ -1,4 +1,4 @@
-# Bad crypto
+# Example 2 : Bad crypto
 
 ![](assets/img/cookies.png){width=20%}
 
@@ -44,7 +44,7 @@ Et nous voilà donc administrateurs du site.
 
 ::: fraglist
 - réutilisation de clé
-- format réutiliser
+- format réutilisé
 - possibilité de forger
 :::
 

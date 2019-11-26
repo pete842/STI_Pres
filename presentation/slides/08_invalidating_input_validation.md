@@ -1,4 +1,4 @@
-# Validation d'entrée
+# Example 3 : Validation d'entrée
 
 ![](assets/img/bobby.png){width=70%}
 
@@ -26,7 +26,7 @@ Les développeurs voulant se défendre des injections SQL au niveau de la page d
 ## Protection injection SQL
 
 :::fraglist
-- Duplication des simples guillemets pour les échapper
+- Duplication des `'` pour les échapper
 - Tronquage des entrés utilisateurs
 :::
 

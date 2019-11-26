@@ -1,5 +1,5 @@
 #
-![](assets/img/avdv.jpg)
+![](assets/img/avdv.gif){width=70%}
 
 :::notes
 Avez-vous déjà vu… Cette image ?
@@ -9,7 +9,7 @@ Avez-vous déjà vu… Cette image ?
 ![](assets/img/ariane5.jpg){width=40%}
 
 ##
-![](assets/img/arian5.gif)
+![](assets/img/arian5.gif){width=50%}
 
 :::notes
 Oui, effectivement cela doit être la milliardième fois que vous en entendez parler…

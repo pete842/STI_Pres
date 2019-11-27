@@ -1,4 +1,4 @@
-# Example 1 : Casser la banque
+# Example 1<br/>Casser la banque
 
 ![*Code Reuse*](assets/img/reuse.png)
 

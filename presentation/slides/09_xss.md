@@ -1,6 +1,6 @@
 # Démo
 
-![](assets/img/troy.jpg){width=50%}
+![](assets/img/troy.jpg){width=40%}
 
 Validation de saisie en multi-étapes
 
@@ -14,7 +14,7 @@ Cette premiere démo consiste à abuser la logique d'un simple validateur de sai
 
 :::fraglist
 - Site web avec status d'utilisateur
-- Valdation du status par le serveur
+- Validation du status par le serveur
 - Consultation du status d'autres utilisateurs
 :::
 
@@ -66,7 +66,7 @@ Le code de validation s'occupe de rendre le status entré valide, et de le retou
 ## Vulnerabilitée ?
 
 ::::fraglist
-- HTML decode et supression de balise 1 fois
+- HTML decode et supression de balises N fois
 - Abusable ?
 ::::
 

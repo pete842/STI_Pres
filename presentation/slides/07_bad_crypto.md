@@ -1,4 +1,4 @@
-# Example 2 : Bad crypto
+# Example 2<br/>Bad crypto
 
 ![](assets/img/cookies.png){width=20%}
 

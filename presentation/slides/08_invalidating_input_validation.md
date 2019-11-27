@@ -1,4 +1,4 @@
-# Example 3 : Validation d'entrée
+# Example 3<br/>Validation d'entrée
 
 ![](assets/img/bobby.png){width=70%}
 
